@@ -17,7 +17,7 @@
 
 <h3>Nearby locations</h3>
 <ul>
-<% for location in @location.nearbys(10) %>
+<% for location in @location.nearbys %>
     <li><%= link_to location.address, location %> (<%= location.distance.round(2) %> miles)</li>
 <% end %>
 </ul>
