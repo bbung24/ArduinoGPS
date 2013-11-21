@@ -1,5 +1,6 @@
 ArduinoGPS::Application.routes.draw do
-  root 'static_pages#home'
+  resources :locations
+  root 'locations#index'
   get "static_pages/home"
   get "static_pages/help"
 
