@@ -20,6 +20,7 @@ gem 'protected_attributes'
 
 #Geocoder for representing GPS lat, long into map view.
 gem 'geocoder'
+gem 'gmaps4rails'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
