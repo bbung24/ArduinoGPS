@@ -2,10 +2,6 @@
   <div id="map" style='width: 800px; height: 400px;'></div>
 </div>
 
-<meta http-equiv="refresh" content="10" />
-
-print <%=raw hash.to_json %>
-
 <script type="text/javascript">
     handler = Gmaps.build('Google', options = { markers: { maxRandomDistance: null } });
     handler.buildMap({ provider: {}, internal: {id: 'map'} }, function(){

@@ -14,14 +14,14 @@ class ApplicationController < ActionController::Base
       #else
         @location = Location.new(latitude: @lat, longitude: @lng, infowindow: @infowindow)
         if @location.save
-          logger.debug("successfully saved lat:"+@lat.to_s+", lng:"+@lng.to_s+", infowindow:"+@infowindow.to_s)
+          logger.info("successfully saved lat:"+@lat.to_s+", lng:"+@lng.to_s+", infowindow:"+@infowindow.to_s)
           #redirect_to root, :notice => "Successfully created location."
         else
           #redirect_to root, :notice => "Failed creating location"
         end
       #end
     else
-      logger.debug("Wrong input")
+      logger.info("Wrong input")
     end
   end
 
@@ -42,7 +42,7 @@ class ApplicationController < ActionController::Base
         end
       end
     else
-      logger.debug("Wrong input")
+      logger.info("Wrong input")
     end
   end
 end

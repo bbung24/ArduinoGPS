@@ -3,12 +3,7 @@
 
 <h1> PaintBall </h1>
 
-<%= form_tag locations_path, :method => :get do %>
-    <p>
-      <%= text_field_tag :search, params[:search] %>
-      <%= submit_tag "Search Near", :name => nil %>
-    </p>
-<% end %>
+<!-- search near -->
 
 <table>
   <tr>
@@ -24,12 +19,12 @@
       <td><%= location.longitude %></td>
       <td><%= location.infowindow %></td>
       <td><%= link_to "Show", location %></td>
-      <td><%= link_to "Edit", edit_location_path(location) %></td>
+      <!--<td><= link_to "Edit", edit_location_path(location) %></td>-->
       <td><%= link_to "Destroy", location, data: {:confirm => 'Are you sure?'}, :method => :delete %></td>
     </tr>
   <% end %>
 </table>
 
-<p><%= link_to "New Location", new_location_path %></p>
+<!--<p><= link_to "New Location", new_location_path %></p> -->
 
 <div class="partial_map"><%= render partial: 'locations/map', :locals => {:hash => @hash} %> </div>
