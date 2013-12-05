@@ -54,6 +54,5 @@ class LocationsController < ApplicationController
       marker.lat location.latitude
       marker.lng location.longitude
     end
-    redirect_to root_path
   end
 end
