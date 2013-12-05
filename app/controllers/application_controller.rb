@@ -9,16 +9,16 @@ class ApplicationController < ActionController::Base
       @lng=params[:lng]
       @infowindow=params[:name].to_s
 
-      if @location = Location.find_by_infowindow(@infowindow)
-        @location.update(latitue:@lat, longitude:@lng)
-      else
+      #if @location = Location.find_by_infowindow(@infowindow)
+      #  @location.update(latitue:@lat, longitude:@lng)
+      #else
         @location = Location.new(latitude: @lat, longitude: @lng, infowindow: @infowindow)
         if @location.save
           #redirect_to root, :notice => "Successfully created location."
         else
           #redirect_to root, :notice => "Failed creating location"
         end
-      end
+      #end
     else
       logger.debug("Wrong input")
     end
