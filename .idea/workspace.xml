@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0ff001c1-e36d-4695-918e-06f978522d95" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20131205050922_add_id_to_locations.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20131205052431_change_data_type_for_name.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20131205054339_remove_name_from_locations.rb" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="0ff001c1-e36d-4695-918e-06f978522d95" name="Default" comment="" />
     <ignored path="ArduinoGPS.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="0ff001c1-e36d-4695-918e-06f978522d95" time="1386206412593" ignored="false" />
@@ -74,10 +69,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="20131205055751_add_infowindow_to_location.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="20131205055751_add_infowindow_to_location.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/db/migrate/20131205055751_add_infowindow_to_location.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="12" selection-start="68" selection-end="68" vertical-scroll-proportion="0.019379845">
+            <state line="1" column="12" selection-start="68" selection-end="68" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -101,10 +96,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application_controller.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="application_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="48" selection-start="402" selection-end="402" vertical-scroll-proportion="-4.8076925">
+            <state line="11" column="48" selection-start="402" selection-end="402" vertical-scroll-proportion="0.22058824">
               <folding />
             </state>
           </provider>
@@ -994,13 +989,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="48" selection-start="402" selection-end="402" vertical-scroll-proportion="-4.8076925">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/locations_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="56" column="43" selection-start="1415" selection-end="1415" vertical-scroll-proportion="0.0">
@@ -1017,7 +1005,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20131205055751_add_infowindow_to_location.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="12" selection-start="68" selection-end="68" vertical-scroll-proportion="0.019379845">
+        <state line="1" column="12" selection-start="68" selection-end="68" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="48" selection-start="402" selection-end="402" vertical-scroll-proportion="0.22058824">
           <folding />
         </state>
       </provider>
