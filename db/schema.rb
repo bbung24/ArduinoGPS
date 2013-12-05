@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20131205054339) do
+ActiveRecord::Schema.define(version: 20131205055751) do
 
   create_table "locations", force: true do |t|
     t.string   "address"
