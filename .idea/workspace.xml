@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ff001c1-e36d-4695-918e-06f978522d95" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/ArduinoGPS.iml" afterPath="$PROJECT_DIR$/.idea/ArduinoGPS.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/locations/_map.html.erb" afterPath="$PROJECT_DIR$/app/views/locations/_map.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/locations/index.html.erb" afterPath="$PROJECT_DIR$/app/views/locations/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ArduinoGPS.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -16,7 +12,7 @@
     <file path="/routes.rb" changelist="0ff001c1-e36d-4695-918e-06f978522d95" time="1386256220885" ignored="false" />
     <file path="/location.rb" changelist="0ff001c1-e36d-4695-918e-06f978522d95" time="1386222353554" ignored="false" />
     <file path="/show.html.erb" changelist="0ff001c1-e36d-4695-918e-06f978522d95" time="1385045986990" ignored="false" />
-    <file path="/index.html.erb" changelist="0ff001c1-e36d-4695-918e-06f978522d95" time="1386262481284" ignored="false" />
+    <file path="/index.html.erb" changelist="0ff001c1-e36d-4695-918e-06f978522d95" time="1386262681411" ignored="false" />
     <file path="/new.html.erb" changelist="0ff001c1-e36d-4695-918e-06f978522d95" time="1384997778839" ignored="false" />
     <file path="/_form.html.erb" changelist="0ff001c1-e36d-4695-918e-06f978522d95" time="1384997910483" ignored="false" />
     <file path="/edit.html.erb" changelist="0ff001c1-e36d-4695-918e-06f978522d95" time="1385045686276" ignored="false" />
@@ -115,7 +111,7 @@
       <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/locations/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="13" selection-start="901" selection-end="901" vertical-scroll-proportion="0.6643952">
+            <state line="9" column="13" selection-start="446" selection-end="446" vertical-scroll-proportion="0.22998296">
               <folding />
             </state>
           </provider>
@@ -1071,7 +1067,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/locations/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="13" selection-start="901" selection-end="901" vertical-scroll-proportion="0.6643952">
+        <state line="9" column="13" selection-start="446" selection-end="446" vertical-scroll-proportion="0.22998296">
           <folding />
         </state>
       </provider>
