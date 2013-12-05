@@ -1,10 +1,10 @@
 class LocationsController < ApplicationController
   def index
-    if params[:search].present?
-      @locations = Location.near(params[:search], 50)
-    else
-      @locations = Location.all
-    end
+    #if params[:search].present?
+    #  @locations = Location.near(params[:search], 50)
+    #else
+    @locations = Location.all
+    #end
 
     @hash = Gmaps4rails.build_markers(@locations) do |location, marker|
       marker.lat location.latitude
@@ -46,5 +46,15 @@ class LocationsController < ApplicationController
     @location = Location.find(params[:id])
     @location.destroy
     redirect_to locations_url, :notice => "Successfully destroyed location."
+  end
+
+  def refresh_part
+    @locations = Location.all
+
+    # get whatever data you need to a variable named @data
+    respond_to do |format|
+      format.js {render :action=>"refresh_part.js"}
+    end
+
   end
 end
