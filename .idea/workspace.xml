@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ff001c1-e36d-4695-918e-06f978522d95" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/ArduinoGPS.iml" afterPath="$PROJECT_DIR$/.idea/ArduinoGPS.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/locations/index.html.erb" afterPath="$PROJECT_DIR$/app/views/locations/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/locations_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/locations_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" />
     </list>
     <ignored path="ArduinoGPS.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,7 +18,7 @@
     <file path="/edit.html.erb" changelist="0ff001c1-e36d-4695-918e-06f978522d95" time="1385045686276" ignored="false" />
     <file path="/seeds.rb" changelist="0ff001c1-e36d-4695-918e-06f978522d95" time="1386220640198" ignored="false" />
     <file path="/locations_controller.rb" changelist="0ff001c1-e36d-4695-918e-06f978522d95" time="1386258238319" ignored="false" />
-    <file path="/application_controller.rb" changelist="0ff001c1-e36d-4695-918e-06f978522d95" time="1386225217546" ignored="false" />
+    <file path="/application_controller.rb" changelist="0ff001c1-e36d-4695-918e-06f978522d95" time="1386258486941" ignored="false" />
     <file path="/create.html.erb" changelist="0ff001c1-e36d-4695-918e-06f978522d95" time="1386220736296" ignored="false" />
     <file path="/a.dummy" changelist="0ff001c1-e36d-4695-918e-06f978522d95" time="1386202723514" ignored="false" />
     <file path="dbtable:/8cde228b/0632c785-20af-46d5-9fd5-7a5ecdbf976d/..bids" changelist="0ff001c1-e36d-4695-918e-06f978522d95" time="1386202783588" ignored="false" />
@@ -62,10 +54,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="locations_controller.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="locations_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/locations_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="5" selection-start="197" selection-end="197" vertical-scroll-proportion="0.11627907">
+            <state line="6" column="5" selection-start="197" selection-end="197" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -116,19 +108,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="location.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/location.rb">
+      <file leaf-file-name="create.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/application/create.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="6" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0">
+            <state line="3" column="66" selection-start="151" selection-end="151" vertical-scroll-proportion="-1.875">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application_controller.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="application_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="19" selection-start="777" selection-end="777" vertical-scroll-proportion="-11.538462">
+            <state line="19" column="29" selection-start="828" selection-end="828" vertical-scroll-proportion="0.37450722">
               <folding />
             </state>
           </provider>
@@ -178,7 +170,6 @@
         <option value="$PROJECT_DIR$/app/views/locations/_map.html.erb" />
         <option value="$PROJECT_DIR$/db/migrate/20131205054339_remove_name_from_locations.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20131205055751_add_infowindow_to_location.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
         <option value="$PROJECT_DIR$/app/models/location.rb" />
         <option value="$PROJECT_DIR$/app/views/locations/index.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
@@ -186,6 +177,7 @@
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/controllers/locations_controller.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
       </list>
     </option>
   </component>
@@ -997,13 +989,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/application/create.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="66" selection-start="151" selection-end="151" vertical-scroll-proportion="-1.875">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20131205055751_add_infowindow_to_location.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="12" selection-start="68" selection-end="68" vertical-scroll-proportion="0.0">
@@ -1021,13 +1006,6 @@
     <entry file="file://$PROJECT_DIR$/app/views/locations/_map.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="32" selection-start="522" selection-end="522" vertical-scroll-proportion="-9.375">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="19" selection-start="777" selection-end="777" vertical-scroll-proportion="-11.538462">
           <folding />
         </state>
       </provider>
@@ -1076,7 +1054,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/locations_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="5" selection-start="197" selection-end="197" vertical-scroll-proportion="0.11627907">
+        <state line="6" column="5" selection-start="197" selection-end="197" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/application/create.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="66" selection-start="151" selection-end="151" vertical-scroll-proportion="-1.875">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="29" selection-start="828" selection-end="828" vertical-scroll-proportion="0.37450722">
           <folding />
         </state>
       </provider>
