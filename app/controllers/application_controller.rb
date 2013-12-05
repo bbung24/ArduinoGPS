@@ -14,8 +14,7 @@ class ApplicationController < ActionController::Base
       else
         #redirect_to root, :notice => "Failed creating location"
       end
-    end
-    if params[:lat]
+    elsif params[:lat]
       @lat=params[:lat]
 
       @location = Location.new(latitude: @lat)
