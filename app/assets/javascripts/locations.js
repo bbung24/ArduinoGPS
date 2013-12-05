@@ -6,6 +6,6 @@ $(document).ready(function () {
 
 function refreshPartial() {
     $.ajax({
-        url: "messages/refresh_part";
+        url: "locations/refresh_part"
 })
 }

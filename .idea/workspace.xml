@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0ff001c1-e36d-4695-918e-06f978522d95" name="Default" comment="" />
+    <list default="true" id="0ff001c1-e36d-4695-918e-06f978522d95" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/locations.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/locations.js" />
+    </list>
     <ignored path="ArduinoGPS.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="0ff001c1-e36d-4695-918e-06f978522d95" time="1386203347243" ignored="false" />
@@ -163,7 +165,7 @@
           <file leaf-file-name="locations.js" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/assets/javascripts/locations.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="8" column="37" selection-start="202" selection-end="202" vertical-scroll-proportion="0.15018773">
+                <state line="8" column="27" selection-start="192" selection-end="192" vertical-scroll-proportion="0.15018773">
                   <folding />
                 </state>
               </provider>
@@ -200,11 +202,11 @@
         <option value="$PROJECT_DIR$/app/views/application/create.html.erb" />
         <option value="$PROJECT_DIR$/app/views/application/index.html.erb" />
         <option value="dbtable:/cbf5920f/4adfffb3-d3fd-4b10-afc6-d7461547a6eb/..locations" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/locations.js" />
         <option value="$PROJECT_DIR$/app/controllers/locations_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/locations/_map.html.erb" />
         <option value="$PROJECT_DIR$/app/views/locations/index.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/locations.js" />
       </list>
     </option>
   </component>
@@ -887,13 +889,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17144907" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23672883" sideWeight="0.67151517" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23672883" sideWeight="0.67151517" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -1077,7 +1079,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/locations.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="37" selection-start="202" selection-end="202" vertical-scroll-proportion="0.15018773">
+        <state line="8" column="27" selection-start="192" selection-end="192" vertical-scroll-proportion="0.15018773">
           <folding />
         </state>
       </provider>
