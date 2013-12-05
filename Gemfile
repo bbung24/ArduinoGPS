@@ -14,6 +14,9 @@ group :production do
   gem 'pg'
 end
 
+gem 'less-rails-bootstrap'
+gem 'therubyracer'
+
 #Security issue
 gem 'devise'
 gem 'protected_attributes'
