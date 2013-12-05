@@ -6,4 +6,4 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
-Location.create(address: '5000 Forbes Ave. Pittsburgh PA')
+#Location.create(address: '5000 Forbes Ave. Pittsburgh PA')

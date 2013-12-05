@@ -4,10 +4,7 @@
 
 <meta http-equiv="refresh" content="10" />
 
-print <%= hash %>
-
-print <%=raw hash.as_json %>
-
+print <%=raw hash.to_json %>
 
 <script type="text/javascript">
     handler = Gmaps.build('Google', options = { markers: { maxRandomDistance: null } });

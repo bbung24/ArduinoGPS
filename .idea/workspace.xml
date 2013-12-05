@@ -2,9 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ff001c1-e36d-4695-918e-06f978522d95" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/ArduinoGPS.iml" afterPath="$PROJECT_DIR$/.idea/ArduinoGPS.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/locations/_map.html.erb" afterPath="$PROJECT_DIR$/app/views/locations/_map.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/application/create.html.erb" afterPath="$PROJECT_DIR$/app/views/application/create.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/locations/index.html.erb" afterPath="$PROJECT_DIR$/app/views/locations/index.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/location.rb" afterPath="$PROJECT_DIR$/app/models/location.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/locations_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/locations_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/seeds.rb" afterPath="$PROJECT_DIR$/db/seeds.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ArduinoGPS.iws" />
@@ -13,22 +20,25 @@
     <file path="/Gemfile" changelist="0ff001c1-e36d-4695-918e-06f978522d95" time="1385044606027" ignored="false" />
     <file path="/production.rb" changelist="0ff001c1-e36d-4695-918e-06f978522d95" time="1384991506585" ignored="false" />
     <file path="/routes.rb" changelist="0ff001c1-e36d-4695-918e-06f978522d95" time="1386207310191" ignored="false" />
-    <file path="/location.rb" changelist="0ff001c1-e36d-4695-918e-06f978522d95" time="1384996310180" ignored="false" />
+    <file path="/location.rb" changelist="0ff001c1-e36d-4695-918e-06f978522d95" time="1386222353554" ignored="false" />
     <file path="/show.html.erb" changelist="0ff001c1-e36d-4695-918e-06f978522d95" time="1385045986990" ignored="false" />
-    <file path="/index.html.erb" changelist="0ff001c1-e36d-4695-918e-06f978522d95" time="1386214325283" ignored="false" />
+    <file path="/index.html.erb" changelist="0ff001c1-e36d-4695-918e-06f978522d95" time="1386222388656" ignored="false" />
     <file path="/new.html.erb" changelist="0ff001c1-e36d-4695-918e-06f978522d95" time="1384997778839" ignored="false" />
     <file path="/_form.html.erb" changelist="0ff001c1-e36d-4695-918e-06f978522d95" time="1384997910483" ignored="false" />
     <file path="/edit.html.erb" changelist="0ff001c1-e36d-4695-918e-06f978522d95" time="1385045686276" ignored="false" />
-    <file path="/seeds.rb" changelist="0ff001c1-e36d-4695-918e-06f978522d95" time="1385045846298" ignored="false" />
-    <file path="/locations_controller.rb" changelist="0ff001c1-e36d-4695-918e-06f978522d95" time="1386215827773" ignored="false" />
-    <file path="/application_controller.rb" changelist="0ff001c1-e36d-4695-918e-06f978522d95" time="1386207564031" ignored="false" />
-    <file path="/create.html.erb" changelist="0ff001c1-e36d-4695-918e-06f978522d95" time="1386184836837" ignored="false" />
+    <file path="/seeds.rb" changelist="0ff001c1-e36d-4695-918e-06f978522d95" time="1386220640198" ignored="false" />
+    <file path="/locations_controller.rb" changelist="0ff001c1-e36d-4695-918e-06f978522d95" time="1386222728559" ignored="false" />
+    <file path="/application_controller.rb" changelist="0ff001c1-e36d-4695-918e-06f978522d95" time="1386222666888" ignored="false" />
+    <file path="/create.html.erb" changelist="0ff001c1-e36d-4695-918e-06f978522d95" time="1386220736296" ignored="false" />
     <file path="/a.dummy" changelist="0ff001c1-e36d-4695-918e-06f978522d95" time="1386202723514" ignored="false" />
     <file path="dbtable:/8cde228b/0632c785-20af-46d5-9fd5-7a5ecdbf976d/..bids" changelist="0ff001c1-e36d-4695-918e-06f978522d95" time="1386202783588" ignored="false" />
     <file path="dbtable:/8cde228b/0632c785-20af-46d5-9fd5-7a5ecdbf976d/..bad_keywords" changelist="0ff001c1-e36d-4695-918e-06f978522d95" time="1386202783588" ignored="false" />
     <file path="dbtable:/8cde228b/0632c785-20af-46d5-9fd5-7a5ecdbf976d/..products" changelist="0ff001c1-e36d-4695-918e-06f978522d95" time="1386202783588" ignored="false" />
     <file path="/locations.js" changelist="0ff001c1-e36d-4695-918e-06f978522d95" time="1386210805857" ignored="false" />
-    <file path="/_map.html.erb" changelist="0ff001c1-e36d-4695-918e-06f978522d95" time="1386219170459" ignored="false" />
+    <file path="/_map.html.erb" changelist="0ff001c1-e36d-4695-918e-06f978522d95" time="1386222696420" ignored="false" />
+    <file path="/20131205050922_add_id_to_locations.rb" changelist="0ff001c1-e36d-4695-918e-06f978522d95" time="1386220288238" ignored="false" />
+    <file path="/20131205052431_change_data_type_for_name.rb" changelist="0ff001c1-e36d-4695-918e-06f978522d95" time="1386221109482" ignored="false" />
+    <file path="/20131205054339_remove_name_from_locations.rb" changelist="0ff001c1-e36d-4695-918e-06f978522d95" time="1386222258025" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,16 +66,7 @@
       <file leaf-file-name="locations_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/locations_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="7" selection-start="1335" selection-end="1335" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/locations/show.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="29" selection-start="249" selection-end="249" vertical-scroll-proportion="-9.375">
+            <state line="56" column="43" selection-start="1415" selection-end="1415" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -74,11 +75,17 @@
       <file leaf-file-name="_map.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/locations/_map.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="26" selection-start="542" selection-end="542" vertical-scroll-proportion="0.38516405">
-              <folding>
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
+            <state line="4" column="42" selection-start="96" selection-end="138" vertical-scroll-proportion="0.082530946">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="seeds.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/seeds.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="1" selection-start="345" selection-end="345" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -86,7 +93,16 @@
       <file leaf-file-name="location.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/location.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="49" selection-start="76" selection-end="85" vertical-scroll-proportion="0.0">
+            <state line="2" column="58" selection-start="157" selection-end="157" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="20131205054339_remove_name_from_locations.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/migrate/20131205054339_remove_name_from_locations.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="50" selection-start="152" selection-end="152" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -95,16 +111,7 @@
       <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/locations/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="52" selection-start="306" selection-end="306" vertical-scroll-proportion="-2.5">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="refresh_part.js.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/locations/refresh_part.js.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="15" selection-start="15" selection-end="15" vertical-scroll-proportion="-0.0">
+            <state line="24" column="33" selection-start="795" selection-end="795" vertical-scroll-proportion="-15.0">
               <folding />
             </state>
           </provider>
@@ -113,7 +120,7 @@
       <file leaf-file-name="create.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/application/create.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="17" selection-start="144" selection-end="144" vertical-scroll-proportion="-3.125">
+            <state line="3" column="66" selection-start="151" selection-end="151" vertical-scroll-proportion="-1.875">
               <folding />
             </state>
           </provider>
@@ -122,25 +129,25 @@
       <file leaf-file-name="application_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="14" selection-start="694" selection-end="694" vertical-scroll-proportion="0.0">
+            <state line="11" column="48" selection-start="402" selection-end="402" vertical-scroll-proportion="-4.8076925">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="locations.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/locations.js">
+      <file leaf-file-name="20131205052431_change_data_type_for_name.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/migrate/20131205052431_change_data_type_for_name.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="65" selection-start="151" selection-end="151" vertical-scroll-proportion="0.0">
+            <state line="2" column="45" selection-start="112" selection-end="112" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
+      <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/routes.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="14" selection-start="594" selection-end="594" vertical-scroll-proportion="0.0">
+            <state line="21" column="53" selection-start="674" selection-end="674" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -164,22 +171,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/vendor/assets/javascripts/underscore.js" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
-        <option value="$PROJECT_DIR$/app/views/locations/edit.html.erb" />
-        <option value="$PROJECT_DIR$/db/seeds.rb" />
         <option value="$PROJECT_DIR$/app/views/locations/show.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/application/create.html.erb" />
         <option value="$PROJECT_DIR$/app/views/application/index.html.erb" />
         <option value="dbtable:/cbf5920f/4adfffb3-d3fd-4b10-afc6-d7461547a6eb/..locations" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/locations.js" />
         <option value="$PROJECT_DIR$/app/views/locations/refresh_part.js.erb" />
-        <option value="$PROJECT_DIR$/app/controllers/locations_controller.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20131205050922_add_id_to_locations.rb" />
+        <option value="$PROJECT_DIR$/db/seeds.rb" />
+        <option value="$PROJECT_DIR$/app/views/application/create.html.erb" />
+        <option value="$PROJECT_DIR$/db/migrate/20131205052431_change_data_type_for_name.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20131205054339_remove_name_from_locations.rb" />
+        <option value="$PROJECT_DIR$/app/models/location.rb" />
         <option value="$PROJECT_DIR$/app/views/locations/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/locations/_map.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/locations_controller.rb" />
       </list>
     </option>
   </component>
@@ -955,9 +962,58 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js.coffee">
+    <entry file="file://$PROJECT_DIR$/app/views/locations/refresh_part.js.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="15" selection-start="15" selection-end="15" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/locations.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="65" selection-start="151" selection-end="151" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20131121011044_create_locations.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20131205050922_add_id_to_locations.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="32" selection-start="94" selection-end="94" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/locations/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/seeds.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="1" selection-start="345" selection-end="345" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20131205052431_change_data_type_for_name.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="45" selection-start="112" selection-end="112" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20131205054339_remove_name_from_locations.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="50" selection-start="152" selection-end="152" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -972,104 +1028,52 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="24" selection-start="140" selection-end="140" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/locations/_form.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="13" selection-start="127" selection-end="127" vertical-scroll-proportion="-1.875">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="16" selection-start="413" selection-end="424" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="14" selection-start="694" selection-end="694" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/location.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="49" selection-start="76" selection-end="85" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/locations.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="65" selection-start="151" selection-end="151" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="14" selection-start="594" selection-end="594" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/locations/refresh_part.js.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="15" selection-start="15" selection-end="15" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/application/create.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="17" selection-start="144" selection-end="144" vertical-scroll-proportion="-3.125">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/locations/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="29" selection-start="249" selection-end="249" vertical-scroll-proportion="-9.375">
+        <state line="2" column="58" selection-start="157" selection-end="157" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/locations/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="52" selection-start="306" selection-end="306" vertical-scroll-proportion="-2.5">
+        <state line="24" column="33" selection-start="795" selection-end="795" vertical-scroll-proportion="-15.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/application/create.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="66" selection-start="151" selection-end="151" vertical-scroll-proportion="-1.875">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="53" selection-start="674" selection-end="674" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="48" selection-start="402" selection-end="402" vertical-scroll-proportion="-4.8076925">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/locations_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="7" selection-start="1335" selection-end="1335" vertical-scroll-proportion="0.0">
+        <state line="56" column="43" selection-start="1415" selection-end="1415" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/locations/_map.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="26" selection-start="542" selection-end="542" vertical-scroll-proportion="0.38516405">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
+        <state line="4" column="42" selection-start="96" selection-end="138" vertical-scroll-proportion="0.082530946">
+          <folding />
         </state>
       </provider>
     </entry>
